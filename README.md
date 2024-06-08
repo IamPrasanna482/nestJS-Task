@@ -1,14 +1,95 @@
-# Implemented the following features - 
-## 1. User Module Endpoints - 
-  ### 1. /users POST (create a user)
-  ### 2. /users GET (get all users)
-  ### 3. /users/:id GET (create a user)
-  ### 4. /users/:id PUT (update a user)
-  ### 5. /users/:id DELETE (delete a user)
 
-## 2. Auth Module Endpoints - 
-  ### 1. /auth/login POST (login a user)
-  ### 2. /auth/change-password PUT (change password of a user)
+# UserManagementSystem
+
+Implemented a User Management System using REST APIs.
+
+## Tech Stack
+- Typescript
+- NestJS
+- Sequalize ORM
+- Postgres
+- PostMan 
+- JWT Authentication
+- Bcrypt Password Hashing
+ 
+
+## User Module API
+
+### Create User 
+
+```http
+  POST /users/
+```
+
+### Get all users
+
+```http
+  GET /users/
+```
+
+### Get a user by id
+
+```http
+  GET /users/{id}
+```
+
+### Update a user by id
+```http
+  PUT /users/{id}
+```
+
+
+### Delete a user by id
+
+```http
+  DELETE /users/{id}
+```
+
+
+
+
+## Auth Module API
+
+### Login User 
+
+```http
+  POST /auth/login
+```
+
+### Change Password of a user
+
+```http
+  PUT /auth/change-Password
+```
+## Features
+
+- ### CRUD - 
+Implemented CRUD operations for the user module.
+
+- ### Pagination - 
+Implemented pagination by using offset and limit and passing them as query parameters.
+
+- ### Auth Module  - 
+Implemented login and changePassword features for the auth module.
+
+- ### Authentication - 
+Implemented Role based Authentication using JWT Tokens.
+
+- ### Filtering & Sorting - 
+Implemented filtering of data by using query parameters and sorting of data using varios properties.
+
+
+- ### Hashing  - 
+Implemented password hashing for the user's password.
+
+- ### PostgreSQL - 
+Connected PostgreSQL DB
+
+- ### Sequalize ORM - 
+Made use of Sequalize ORM for easy mapping of objects in the DB
+
+- ### DTOs - 
+Defined DTOs for validation and code reusability.
 
 
 
