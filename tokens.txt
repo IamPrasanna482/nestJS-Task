@@ -1,0 +1,17 @@
+{
+    "email":"rio@gmail.com",
+    "password" : "rio",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpb0BnbWFpbC5jb20iLCJwYXNzd29yZCI6InJpbyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE3NzM3NDkzfQ.pg7OSeUE2uVyzjYYRX-2Hhtg8eJvD067JkhcUUUwBzc"
+      "role" : "user"
+}
+
+{
+    "email":"max@gmail.com",
+    "password" : "max",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBnbWFpbC5jb20iLCJwYXNzd29yZCI6Im1heCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNzczODY3Nn0.zI0elnKlIKp99Ot6xN0zgjK5zRXzyNmvq7FN752YWfk"
+
+    "role" : "admin"
+    }
+
+
+
