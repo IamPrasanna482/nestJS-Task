@@ -1,3 +1,19 @@
+# Implemented the following features - 
+## 1. User Module Endpoints - 
+  ### 1. /users POST (create a user)
+  ### 2. /users GET (get all users)
+  ### 3. /users/:id GET (create a user)
+  ### 4. /users/:id PUT (update a user)
+  ### 5. /users/:id DELETE (delete a user)
+
+## 2. Auth Module Endpoints - 
+  ### 1. /auth/login POST (login a user)
+  ### 2. /auth/change-password PUT (change password of a user)
+
+
+
+  
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
